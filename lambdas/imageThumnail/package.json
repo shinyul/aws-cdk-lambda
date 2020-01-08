@@ -1,0 +1,16 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "s3_image_lambda.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.556.0",
+    "sharp": "^0.23.1",
+    "util": "^0.12.1"
+  }
+}

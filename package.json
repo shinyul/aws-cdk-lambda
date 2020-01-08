@@ -1,6 +1,8 @@
 {
   "name": "aws_lambda",
   "version": "0.1.0",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
   "bin": {
     "aws_lambda": "bin/aws_lambda.js"
   },
@@ -11,18 +13,36 @@
     "cdk": "cdk"
   },
   "devDependencies": {
-    "aws-cdk": "^1.14.0",
     "@aws-cdk/assert": "^1.6.1",
+    "@aws-cdk/aws-s3": "^1.14.0",
+    "@aws-cdk/aws-s3-notifications": "^1.14.0",
     "@types/jest": "^24.0.18",
+    "@types/node": "^12.11.7",
+    "async": "^3.1.0",
+    "aws-cdk": "^1.14.0",
+    "aws-sdk": "^2.555.0",
+    "gm": "^1.23.1",
     "jest": "^24.9.0",
+    "path": "^0.12.7",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.1.0",
     "typescript": "~3.6.2"
   },
   "dependencies": {
+    "@aws-cdk/aws-lambda": "^1.14.0",
     "@aws-cdk/aws-sns": "^1.14.0",
     "@aws-cdk/aws-sns-subscriptions": "^1.14.0",
     "@aws-cdk/aws-sqs": "^1.14.0",
-    "@aws-cdk/core": "^1.14.0"
+    "@aws-cdk/core": "^1.14.0",
+    "async": "^3.1.0",
+    "aws-cdk": "^1.14.0",
+    "aws-sdk": "^2.555.0",
+    "aws-xray-sdk": "^2.4.0",
+    "gm": "^1.23.1",
+    "jest": "^24.9.0",
+    "path": "^0.12.7",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.6.2"
   }
 }
